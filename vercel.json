@@ -9,23 +9,5 @@
         }
       ]
     }
-  ],
-  "rewrites": [
-    {
-      "source": "/BuzziTone",
-      "destination": "https://buzzi-acoustic-3.vercel.app"
-    },
-    {
-      "source": "/BuzziTone/(.*)",
-      "destination": "https://buzzi-acoustic-3.vercel.app/$1"
-    },
-    {
-      "source": "/Pinpoint",
-      "destination": "/"
-    },
-    {
-      "source": "/Pinpoint/(.*)",
-      "destination": "/$1"
-    }
   ]
 }
